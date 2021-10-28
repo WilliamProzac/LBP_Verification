@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\Users\yangw\opencv\build\include\opencv2;C:\Users\yangw\opencv\build\include\opencv;C:\Users\yangw\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\yangw\opencv\build\x64\vc15\lib;C:\Users\yangw\opencv\build\x64\vc15\bin;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>C:\Users\yangw\opencv\build\x64\vc15\lib\opencv_world3414d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
